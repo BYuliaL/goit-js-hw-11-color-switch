@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 30px;
+  margin-right: 50px;
+  margin-top: 100px;
+  outline: none;
+  font-size: 28px;
+}
+
+button:first-child {
+  background-color: lightgreen;
+}
+
+button:last-child {
+  background-color: gold;
+}
